@@ -3,6 +3,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 18px;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
 }
 
 h2 {
-  color: #66BFBF;
+  color: 2F8F9D;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -30,7 +31,7 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #2F8F9D 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -67,10 +68,16 @@ a:hover {
   margin: auto;
 }
 
-.skill-row {
+.skill-row-one {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+}
+
+.skill-row-two {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
 }
 
 .top-cloud {
@@ -89,14 +96,14 @@ a:hover {
   height: 256px;
   width: 256px;
   float: left;
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .third-image {
   height: 256px;
   width: 256px;
   float: right;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .contact-message {
@@ -115,6 +122,7 @@ a:hover {
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -129,6 +137,11 @@ a:hover {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.footer-link {
+  color: white;
+  font-weight: bold;
 }
 
 .copyright {
