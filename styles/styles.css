@@ -3,7 +3,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h3 {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 hr {
@@ -64,20 +64,22 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  font-size: 25px;
+  width: 75%;
   margin: auto;
 }
 
 .skill-row-one {
-  width: 50%;
+  width: 75%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
 
 .skill-row-two {
-  width: 50%;
+  width: 75%;
   margin: 100px auto 100px auto;
   text-align: right;
+  line-height: 1.5;
 }
 
 .top-cloud {
@@ -107,8 +109,9 @@ a:hover {
 }
 
 .contact-message {
-  width: 40%;
+  width: 75%;
   margin: 40px auto 60px;
+  font-size: 16px;
 }
 
 .btn {
